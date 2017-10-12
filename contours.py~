@@ -17,7 +17,7 @@ def gaussian_blur(img, kernel_size):
 img = mpimg.imread("./test9.jpg")
 gray = gaussian_blur(img, 5)
 gray = grayscale(gray)
-cny =canny(img,30,100)
+cny =canny(img,30,200)
 kernel = np.ones((3,3),np.uint8)
 plt.imshow(cny)
 plt.show()
