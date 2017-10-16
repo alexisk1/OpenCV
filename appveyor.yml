@@ -1,0 +1,8 @@
+configuration: Release
+
+before_build:
+  - nu_get restore
+  
+build:
+  verbosity: minimal
+  publush_wap: true
