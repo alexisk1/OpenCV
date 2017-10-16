@@ -5,4 +5,4 @@ before_build:
   
 build:
   verbosity: minimal
-  publush_wap: true
+  publish_wap: true
